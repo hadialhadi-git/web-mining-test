@@ -1,9 +1,215 @@
-<!doctype html>
-<html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Orbiter is a bootstrap minimal & clean admin template">
+    <meta name="keywords" content="admin, admin panel, admin template, admin dashboard, responsive, bootstrap 4, ui kits, ecommerce, web app, crm, cms, html, sass support, scss">
+    <meta name="author" content="Themesbox">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <title>Orbiter - Bootstrap Minimal & Clean Admin Template</title>
+    <!-- Fevicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <!-- Start css -->
+
+
+    <!-- Slick css -->
+    <link href="assets/plugins/slick/slick.css" rel="stylesheet">
+    <link href="assets/plugins/slick/slick-theme.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/icons.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/flag-icon.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <!-- End css -->
+</head>
+<body class="vertical-layout">    
+    <!-- Start Infobar Setting Sidebar -->
+    
+    <div class="infobar-settings-sidebar-overlay"></div>
+    <!-- End Infobar Setting Sidebar -->
+    <!-- Start Containerbar -->
+    <div id="containerbar">
+        <!-- Start Leftbar -->
+        <div class="leftbar">
+            <!-- Start Sidebar -->
+            <div class="sidebar">
+                <!-- Start Logobar -->
+                <div class="logobar">
+                    <a href="index.html" class="logo logo-large"><img src="assets/images/logo.svg" class="img-fluid" alt="logo"></a>
+                    <a href="index.html" class="logo logo-small"><img src="assets/images/small_logo.svg" class="img-fluid" alt="logo"></a>
+                </div>
+                <!-- End Logobar -->
+                <!-- Start Navigationbar -->
+                <div class="navigationbar">
+                    <ul class="vertical-menu">
+                        <li>
+                            <a href="index.html">
+                              <img src="assets/images/svg-icon/dashboard.svg" class="img-fluid" alt="dashboard"><span>Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ecommerce-myaccount.html">
+                              <img src="assets/images/svg-icon/dashboard.svg" class="img-fluid" alt="dashboard"><span>السوال الاول</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ecommerce-myaccount.html">
+                              <img src="assets/images/svg-icon/dashboard.svg" class="img-fluid" alt="dashboard"><span>السوال الثاني</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- End Navigationbar -->
+            </div>
+            <!-- End Sidebar -->
+        </div>
+        <!-- End Leftbar -->
+        <!-- Start Rightbar -->
+        <div class="rightbar">
+            <!-- Start Topbar Mobile -->
+            <div class="topbar-mobile">
+                <div class="row align-items-center">
+                    <div class="col-md-12">
+                        <div class="mobile-logobar">
+                            <a href="index.html" class="mobile-logo"><img src="assets/images/logo.svg" class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="mobile-togglebar">
+                            <ul class="list-inline mb-0">
+                                <li class="list-inline-item">
+                                    <div class="topbar-toggle-icon">
+                                        <a class="topbar-toggle-hamburger" href="javascript:void();">
+                                            <img src="assets/images/svg-icon/horizontal.svg" class="img-fluid menu-hamburger-horizontal" alt="horizontal">
+                                            <img src="assets/images/svg-icon/verticle.svg" class="img-fluid menu-hamburger-vertical" alt="verticle">
+                                         </a>
+                                     </div>
+                                </li>
+                                <li class="list-inline-item">
+                                    <div class="menubar">
+                                        <a class="menu-hamburger" href="javascript:void();">
+                                            <img src="assets/images/svg-icon/collapse.svg" class="img-fluid menu-hamburger-collapse" alt="collapse">
+                                            <img src="assets/images/svg-icon/close.svg" class="img-fluid menu-hamburger-close" alt="close">
+                                         </a>
+                                     </div>
+                                </li>                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Start Topbar -->
+            <div class="topbar">
+                <!-- Start row -->
+                <div class="row align-items-center">
+                    <!-- Start col -->
+                    <div class="col-md-12 align-self-center">
+                        <div class="togglebar">
+                            <ul class="list-inline mb-0">
+                                <li class="list-inline-item">
+                                    <div class="menubar">
+                                        <a class="menu-hamburger" href="javascript:void();">
+                                           <img src="assets/images/svg-icon/collapse.svg" class="img-fluid menu-hamburger-collapse" alt="collapse">
+                                           <img src="assets/images/svg-icon/close.svg" class="img-fluid menu-hamburger-close" alt="close">
+                                         </a>
+                                     </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                     
+                    </div>
+                    <!-- End col -->
+                </div> 
+                <!-- End row -->
+            </div>
+            <!-- End Topbar -->
+            <!-- Start Breadcrumbbar -->                    
+            <div class="breadcrumbbar">
+                <div class="row align-items-center">
+                    <div class="col-md-8 col-lg-8">
+                        <h4 class="page-title">MWM</h4>
+                        <div class="breadcrumb-list">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">F21</a></li>
+                                <li class="breadcrumb-item"><a href="#">BASSEL MUSTAFFA ALKHATIB</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>          
+            </div>
+            <!-- End Breadcrumbbar -->
+            <!-- Start Contentbar -->    
+            <div class="contentbar">                
+               
+                <!-- Start row -->
+                <div class="row">
+                    <!-- Start col -->
+                    <div class="col-lg-12 col-xl-12">
+                        <!-- Start row -->
+                        <div class="row">
+                            <!-- Start col -->
+                            <div class="col-lg-6 col-xl-6">
+                                <div class="card m-b-30">
+                                    <div class="card-body text-center">
+                                        <div class="user-slider">
+                                            <div class="user-slider-item">
+                                                <img src="assets/images/users/men.svg" alt="avatar" class="rounded-circle mt-3 mb-4">
+                                                <h5>هادي الهادي</h5>
+                                                <p>hadi_96829</p>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End col -->
+                            <!-- Start col -->
+                            <div class="col-lg-6 col-xl-6">
+                                <div class="card m-b-30">
+                                    <div class="card-body text-center">
+                                        <div class="user-slider">
+                                            <div class="user-slider-item">
+                                                <img src="assets/images/users/women.svg" alt="avatar" class="rounded-circle mt-3 mb-4">
+                                                <h5>James Smith</h5>
+                                                <p>Senior Sales Executive</p>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End col -->
+                        </div>
+                        <!-- End row -->
+                    </div>
+                    <!-- End col -->
+                </div>
+                <!-- End row -->
+            </div>
+            <!-- End Contentbar -->
+            <!-- Start Footerbar -->
+            <div class="footerbar">
+                <footer class="footer">
+                    <p class="mb-0">© 2022 - All Rights Reserved.</p>
+                </footer>
+            </div>
+            <!-- End Footerbar -->
+        </div>
+        <!-- End Rightbar -->
+    </div>
+    <!-- End Containerbar -->
+    <!-- Start js -->        
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/modernizr.min.js"></script>
+    <script src="assets/js/detect.js"></script>
+    <script src="assets/js/jquery.slimscroll.js"></script>
+    <script src="assets/js/vertical-menu.js"></script>
+    <!-- Slick js -->
+    <script src="assets/plugins/slick/slick.min.js"></script>
+    <!-- Custom Dashboard js -->   
+    <script src="assets/js/custom/custom-dashboard.js"></script>
+    <!-- Core js -->
+    <script src="assets/js/core.js"></script>
+    <!-- End js -->
+</body>
 </html>
