@@ -482,6 +482,8 @@
                     <tr>
                         <th>Name</th>
                         <th>WikiPage</th>
+                        <th>Actors</th>
+                        <th>Pic</th>
                         <th>Year</th>
                     </tr>
                 </thead>
@@ -493,6 +495,8 @@
                     <tr>
                         <td>${element.Name.value.replace('http://dbpedia.org/resource/','')}</td>
                         <td>${element.WikiPage.value.replace('http://dbpedia.org/resource/','')}</td>
+                        <td>${element.Actors ? element.Actors.value.replace('http://dbpedia.org/resource/','') : 'N/A'}</td>
+                        <td>N/A</td>
                         <td>${element.year.value.replace('http://dbpedia.org/resource/','')}</td>
                     </tr>
                 `
